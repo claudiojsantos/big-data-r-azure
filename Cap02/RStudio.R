@@ -27,3 +27,12 @@ library(ggplot2)
 
 # descarregar o pacote
 detach(package:ggplot2)
+
+# consultando detalhes da função
+help(mean)
+?mean
+
+# para buscar mais opções sobre uma função, utilize o pacote SOS
+install.packages("sos")
+findFunction("fread")
+findFn("fread")
