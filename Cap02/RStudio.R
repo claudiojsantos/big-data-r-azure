@@ -35,7 +35,6 @@ help(mean)
 # para buscar mais opções sobre uma função, utilize o pacote SOS
 install.packages("sos")
 library(sos)
-findFunction("fread")
 findFn("fread")
 
 # se não souber o nome da função
